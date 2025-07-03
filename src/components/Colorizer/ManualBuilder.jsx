@@ -4,7 +4,6 @@ import { For, Show } from 'pota/components'
 import styles from './index.module.css'
 
 function ManualBuilderPart(props) {
-	console.log('manual builder part ran')
 	function setColorPlacement(e) {
 		const color = e.target.value || null
 		props.colors.placement[props.index()] = color
@@ -25,7 +24,6 @@ function ManualBuilderPart(props) {
 }
 
 export default function ManualBuilder(props) {
-	console.log('manual builder ran')
 	const inputArray = memo(() => props.input().split(''))
 	return (
 		<section>

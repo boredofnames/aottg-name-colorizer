@@ -4,12 +4,10 @@ import { For } from 'pota/components'
 import styles from './index.module.css'
 
 export default function Colors(props) {
-	console.log('colors ran')
 	function add(e) {
 		props.colors.list.push(e.currentTarget.value)
 	}
 	function remove(index) {
-		console.log('removing', index)
 		props.colors.list.splice(index, 1)
 	}
 	function getColor(color) {

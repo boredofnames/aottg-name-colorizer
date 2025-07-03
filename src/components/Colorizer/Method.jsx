@@ -1,7 +1,6 @@
 import { pd } from '@js/utils.js'
 
 export default function Method(props) {
-	console.log('method ran')
 	function setMethod(e) {
 		props.setMethod(e.target.value)
 	}

@@ -2,7 +2,6 @@ import { memo } from 'pota'
 import { For, Show } from 'pota/components'
 
 export default function Display(props) {
-	console.log('display ran')
 	const splitInput = memo(() => props.input().split(''))
 	let lastColor = '#ffffff'
 	const colorFill = memo(() =>

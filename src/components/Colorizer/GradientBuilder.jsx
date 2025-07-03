@@ -5,7 +5,6 @@ import { bind } from 'pota/use/bind'
 import styles from './index.module.css'
 
 export default function GradientBuilder(props) {
-	console.log('gradient builder ran')
 	const mode = bind('lch')
 	const modes = [
 		//'hcg',

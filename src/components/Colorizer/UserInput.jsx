@@ -2,7 +2,6 @@ import { pd } from '@js/utils.js'
 import { effect } from 'pota'
 
 export default function UserInput(props) {
-	console.log('user input ran')
 	effect(() => {
 		props.colors.placement = new Array(props.input().length).fill(
 			null,

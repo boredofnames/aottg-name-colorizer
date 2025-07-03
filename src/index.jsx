@@ -9,7 +9,6 @@ import Colorizer from './components/Colorizer/index.jsx'
 import styles from './index.module.css'
 
 function App() {
-	console.log('app ran')
 	function cycleBg() {
 		if (bgIndex() < bgs.length - 1) setBgIndex(bgIndex() + 1)
 		else setBgIndex(0)

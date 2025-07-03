@@ -12,7 +12,6 @@ import UserInput from './UserInput.jsx'
 import styles from './index.module.css'
 
 export default function Colorizer(props) {
-	console.log('colorizer ran')
 	const debug = bind(false)
 	const input = bind('Guest1')
 	const colors = mutable({

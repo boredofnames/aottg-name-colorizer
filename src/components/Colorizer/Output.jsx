@@ -3,7 +3,6 @@ import { memo, ref } from 'pota'
 import { For, Show } from 'pota/components'
 
 export default function Output(props) {
-	console.log('output ran')
 	const splitInput = memo(() => props.input().split(''))
 	const output = ref()
 	function copy() {
