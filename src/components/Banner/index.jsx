@@ -2,7 +2,6 @@ import { useTimeout } from 'pota/use/time'
 import styles from './index.module.css'
 
 export default function Banner(props) {
-	console.log('banner ran')
 	useTimeout(dispose, duration).start()
 
 	function dispose() {
